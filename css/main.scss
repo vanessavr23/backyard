@@ -1,0 +1,147 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+$blanco: #fff;
+
+$gris: #969693;
+
+$celeste: #3BB1F6;
+
+.logo{
+	width: 150px;
+}
+
+.cabeza{
+	padding:5px 0;
+}
+
+.menu{
+	padding: 10px 0 0;
+}
+
+.menu{
+	a{
+		padding-left: 20px;
+		color: $gris;
+		font-weight: bold;
+	}
+}
+
+.transparencia{
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0, 0.5);
+	
+}
+
+.fondo{
+	background-image: url(../images/1920x665-1.jpg);
+	background-size: cover;
+}
+
+.texto{
+	color: $blanco;
+	padding: 80px 40px 80px 0 !important;
+}
+
+.texto{
+	p{
+		line-height: 180%;
+	}
+}
+
+button{
+	border: $celeste 1px solid;
+	border-radius: 20px;
+	background: transparent;
+	padding:10px 20px;
+	margin:10px  10px 20px 0 !important;
+}
+
+button:hover{
+	background: $celeste;
+}
+
+button:hover{
+	a{
+		color: $blanco;
+	}
+}
+
+button{
+	a{
+		color:$celeste;
+		font-weight: bold;
+	}
+}
+
+.linea{
+	width:100%;
+	margin: 80px 0;
+	border: solid 1px #EDEDED; 
+}
+
+.telefono{
+	width:100%;
+}
+
+.optimize{
+	padding-right: 40px !important;
+}
+
+.optimize{
+	h1, p{
+		line-height: 150%;
+		color: $gris;
+	}
+
+	a{
+		color: $celeste;
+		font-weight: bold;
+	}
+}
+
+.plomo{
+	background-color:#F6F6F6;
+	color: $gris;
+}
+
+.centro{
+	text-align: center;
+}
+
+.plomo{
+	.centro{
+		padding: 70px 0;
+	}
+}
+
+.telefono{
+	padding: 50px 0 30px 20px;
+}
+
+.cel{
+	line-height: 180%;
+}
+
+footer{
+	padding: 30px 0;
+}
+
+.centro{
+	.fa{
+		padding:10px 13px;
+		margin-bottom: 10px;
+		border-radius:50%;
+		border: 1px solid $celeste;
+		color: $celeste;
+	}
+}
+
+.blue{
+	color: $celeste;
+	font-weight: bold;
+
+}
+
